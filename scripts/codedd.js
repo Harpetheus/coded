@@ -1,19 +1,11 @@
-// JS for the madebyon site
 
 
 
 
 
 
-(function loop() {
-	// Reset random number for setTimout
-	var randomNumber = Math.floor(Math.random() * 4001) + 1000;
-	setTimeout(function() {
-		loader(); // Not necessary, can just place normal logic here, this makes it clean
-		loop(); // Call itself once setTimout has been invoked
-	}, randomNumber);
 
-})();
+
 
 
 window.addEventListener('mouseover', function(){
