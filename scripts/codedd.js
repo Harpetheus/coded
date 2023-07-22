@@ -38,8 +38,7 @@ window.addEventListener('mouseover', function(){
 
 
 
-const $two = $(".two");
-const $three = $(".three");
+
 
 
 $(document).ready(function() {
