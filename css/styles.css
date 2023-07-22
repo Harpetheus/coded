@@ -359,7 +359,7 @@ transform: translateX(-50px);
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    height: auto;
+    height: 50vh;
 }
 
 .whiteOne {
