@@ -99,17 +99,7 @@ $(".livv").click(function(){
   window.location.href='https://www.joffrelakes.ca/';
 });
 
-$(".about").click(function(){
-  window.location.href='about.html';
-});
 
-$(".contact").click(function(){
-  window.location.href='contact.html';
-});
-
-$(".email").click(function(){
-  window.location.href='mailto: harpetheus@gmail.com';
-});
 
 
 
