@@ -6,17 +6,15 @@
 }
 
 
-html {
 
-    line-height: 1.2;
-}
-body {
+html, body {
     color: white;
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     overflow-x: hidden;
+    line-height: 1.2;
 }
 
 h1 {
@@ -86,9 +84,11 @@ footer{
 header#site-top {
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
     justify-content: space-between;
-    padding: var(--gutter);
+    padding-left: 2%;
+    padding-right: 5%;
+    padding-top: 0;
 
 }
 
@@ -162,7 +162,8 @@ header#site-top .home-button-holder-other a{
 .first-section {
  
   height: 100vh;
-  width: 100%;
+  width: 100vw;
+  margin: 0;
 }
 
 .too-big {
@@ -374,6 +375,11 @@ header #site-top .logo a .link {
   height: 900px;
 }
 
+header#site-top .home-button-holder {
+  margin-right: 10%;
+
+}
+
 
 
 }
@@ -404,7 +410,10 @@ header #site-top .logo a .link {
     display: block;
   }
 
+  header#site-top .home-button-holder {
+    margin-right: 10%;
 
+}
 
 
 }
