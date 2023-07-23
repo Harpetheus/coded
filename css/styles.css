@@ -9,7 +9,6 @@
 html {
 
     line-height: 1.2;
-    overflow-x: hidden;
 }
 body {
     color: white;
@@ -18,7 +17,6 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     overflow-x: hidden;
-    position: relative;
 }
 
 h1 {
@@ -365,10 +363,14 @@ transform: translateX(-50px);
 
 }
 
+.last {
+  padding-bottom: 80px;
+}
+
 .split-two{
   width: 70%;
   margin-bottom: 10px;
-  height: 930px;
+  height: 900px;
 }
 
 
