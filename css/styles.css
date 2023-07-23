@@ -52,15 +52,22 @@ font-weight: 100;
 h5 {
   font-family: 'Victor Mono';
 font-size: 3rem;
-padding-left: 30px;
+margin: 0;
+padding-left: 25%;
 font-weight: 400;
 font-style: italic;
+color: #474747;
+display: none;
 }
 
 span {
   color: white;
 }
 
+footer{
+  height: 50px;
+  background-color: #ffffff;
+}
 
 .one{
   color: #000b5f90;
@@ -312,6 +319,7 @@ transform: translateX(-50px);
 
 .split img {
   width: 60%;
+  padding-left: 15%;
 }
 
 .halfscreen-about h5{
@@ -350,6 +358,16 @@ transform: translateX(-50px);
  .mountains {
   display: none;
  }
+ .text-rows{
+  width: 100vw;
+
+}
+
+.split-two{
+  width: 70%;
+  margin-bottom: 10px;
+  height: 930px;
+}
 
 
 
@@ -365,17 +383,21 @@ transform: translateX(-50px);
   }
   .split-two{
     background-color: transparent;
-    margin-bottom: 10%;
+    margin-bottom: 10px;
+    height: 650px;
   }
   .whiteOne{
     background-image: none;
   }
 
   .halfscreen-about{
-    background-image: linear-gradient(#c7c5c5, white);
+    background-image: none;
   
   }
   
+  h5{
+    display: block;
+  }
 
 
 }
