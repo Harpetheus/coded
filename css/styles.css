@@ -18,7 +18,7 @@ html, body {
 }
 
 h1 {
-font-family: 'Victor Mono';
+font-family: 'Inter', sans-serif;
 font-size: 2rem;
 padding-left: 7%;
 font-weight: 300;
